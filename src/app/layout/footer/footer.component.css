@@ -1,0 +1,44 @@
+* {box-sizing: border-box};
+
+footer {
+  background: #000;
+  width: 100%;
+  display: inline-block;
+}
+
+.bg-gray-300 {
+  background-color: #000000 !important;
+}
+
+.text-muted {
+  --bs-text-opacity: 3;
+  text-decoration: none;
+  color: #fff !important;
+}
+
+.py-6 {
+  padding-top: 6rem !important;
+  padding-bottom: 6rem !important;
+}
+
+
+p {
+  margin-top: 0;
+  margin-bottom: 1rem;
+}
+
+p {
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+}
+
+.icons{
+  font-size: 1.5rem
+}
+
+ a:hover{
+   text-decoration: underline;
+}

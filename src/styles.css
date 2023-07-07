@@ -1,0 +1,136 @@
+
+/*
+1. Posicinamiento  fix, relative, etc
+2. Modelo caja (Box model) -margin - pading, etc
+3. Tipografía
+4. Visuales
+5. Otros
+*/
+
+:root {
+  /*Colores*/
+  --verde-logo: #8bc349;
+  --warm-black: #201E1C;
+  --black: #282623;
+  --grey: #bababa;
+  --off-white: #faf8f7;
+  --just-white: #fff;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 85.5%;
+  font-family: 'DM Sans', sans-serif;
+}
+
+/* Inicio -  Animaciones*/
+.animated {
+  -webkit-animation-duration: 5s;
+  animation-duration: 5s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+}
+
+.fast {
+  -webkit-animation-duration: 0.4s;
+  animation-duration: 0.4s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+.fadeIn {
+  animation-name: fadeIn;
+}
+/* Fin -  Animaciones*/
+
+/*** Inicio  Style Whatassp flotante ********/
+.float{
+	position:fixed;
+	width:60px;
+	height:60px;
+	bottom:40px;
+	right:40px;
+	background-color:#25d366;
+	color:#FFF;
+	border-radius:50px;
+	text-align:center;
+  font-size:30px;
+	box-shadow: 2px 2px 3px #999;
+  z-index:100;
+  animation: efectoWsp 1.2s infinite;
+}
+.float:hover {
+	text-decoration: none;
+	color: #25d366;
+  background-color:#fff;
+}
+
+.my-float{
+	margin-top:16px;
+}
+
+
+@keyframes efectoWsp {
+  0% {
+    box-shadow: 0 0 0 0 rgba(9, 133, 50, 1);
+  }
+
+/*   15% {
+    box-shadow: 0 0 0 15px rgba(7, 102, 31, 0.4);
+  }
+
+  50% {
+    box-shadow: 0 0 0 15px rgba(28, 85, 16, 0.2);
+  } */
+
+
+  100% {
+    box-shadow: 0 0 0 25px rgba(16, 117, 33, 0);
+  }
+
+}
+
+#tooltip {
+  position: relative;
+}
+
+#tooltiptext {
+  position:absolute;
+  left: 330%;
+  top: 0;
+  transform: translate(-330%);
+  background-color: rgb(37, 211, 102);
+  color:#FFF;
+  white-space: nowrap;
+  padding: 3px 8px;
+  border-radius: 7px;
+  visibility: hidden;
+  opacity: 0;
+  transition: opacity 0.9s ease;
+  font-size: 15px;
+}
+
+#tooltip:hover #tooltiptext {
+  top: 30%;
+  visibility: visible;
+  opacity: 1;
+}
+/*** Fin  Style Whatassp flotante ********/
+
+
+

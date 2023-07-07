@@ -1,0 +1,61 @@
+<app-nav></app-nav>
+
+<section class="main-banner" style="background-image: url(/assets/img/contacto/contacto.png);">
+  <div class="container">
+    <div class="b22-img">
+      <img src="assets/img/contacto/ibi-trasparente.png" width="482" height="635" title="b22 imgleft 482x635"
+        alt="b22 imgleft 482x635" data-lazy-src="assets/img/contacto/ibi-trasparente.png" data-ll-status="loaded"
+        class="entered lazyloaded">
+    </div>
+    <div class="b22-form">
+      <div id="form-contact" style="margin: 0px;" class="super-form">
+        <form [formGroup]="formLogin" (submit)="send()">
+          <div class="block-title">
+            <div class="block-title-content">
+              <h3 class="title-contact">
+                ¡Escríbenos y te
+                <strong>contactaremos!</strong>
+              </h3>
+            </div>
+
+          </div>
+          <div class="col-12">
+            <label for="inputAddress" class="form-label">NOMBRES y APELLIDOS</label>
+            <input type="text" class="form-control" id="name" placeholder="" formControlName="name">
+          </div>
+          <div class="col-md-6">
+            <label for="inputEmail4" class="form-label">EMAIL</label>
+            <input type="email" class="form-control" id="email" formControlName="email">
+          </div>
+      <!--     <div class="col-md-6">
+            <label for="inputPassword4" class="form-label">TELÉFONO / CELULAR</label>
+            <input type="password" class="form-control" id="inputPassword4">
+          </div> -->
+
+          <div class="col-12">
+            <label for="inputAddress2" class="form-label">MENSAJE</label>
+            <input type="text" class="form-control" id="message" placeholder="" formControlName="message">
+          </div>
+
+          <div class="col-12 my-3">
+            <button type="submit" class="btn btn-primary">ENVIAR</button>
+          </div>
+        </form>
+
+      </div>
+
+      <div>
+        Valido: {{formLogin.valid | json}}
+      </div>
+
+    </div>
+  </div>
+</section>
+
+
+
+
+
+<app-footer></app-footer>
+
+
