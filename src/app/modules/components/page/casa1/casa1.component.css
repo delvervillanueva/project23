@@ -3,23 +3,6 @@
   background: #8bc349;
 }
 
-.wrapper-icons {
-  display: flex;
-  flex-wrap: wrap;
-  align-items: center;
-  padding-left: 50px;
-  margin-top: 100px;
-}
-
-.item-icon {
-  font-size: 18px;
-  display: flex;
-  width: 33%;
-  align-items: center;
-  margin-bottom: 30px;
-  color: #fff;
-}
-
 .icono-areas-comunes {
   margin-right: 15px;
  font-size: 2rem;
@@ -38,68 +21,26 @@
   padding-bottom: 60px;
 }
 
-.sliders-galery {
-  z-index: 1;
-  height: 100%;
-  white-space: nowrap;
-  display: block;
-  position: relative;
-  left: 0;
-  right: 0;
-  overflow: hidden;
-}
-
-.w-slide{
-  vertical-align: top;
-  width: 100%;
-  height: 100%;
-  white-space: normal;
-  text-align: left;
-  display: inline-block;
-  position: relative;
-}
-
-.m-cuarto1 {
-  background-position: 0 0;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-
-.m-cuarto2 {
-  background-position: 0 0;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-
-.size-galery {
-
-  width: 1150px;
-  height: 500px;
-}
-
 #project_general_info .project-info {
   margin-top: -50px;
   z-index: 1;
   position: relative;
-/*   padding-bottom: 50px; */
   background: #fff;
   padding: 10px;
   border: 1px solid #000;
 }
 
-#project_general_info .project-info .uk-grid      /* viendo para eliminar o quiza no,  sepradolres de color ver lina verticales */ {
+#project_general_info .project-info .uk-grid {
 
   display: flex;
   justify-content: space-around;
 }
+
 #project_general_info .project-info .uk-col-project-info {
   position: relative;
-/*   margin-right: 50px;
-  justify-content: center;                            viendo para eliminar  */
 }
 
 #project_general_info .project-info .uk-col-project-info .uk-card {
-
   display: flex;
 }
 
@@ -116,7 +57,6 @@
   font-size: 16px;
   color: #111820;
   margin-top: 26px;
- /*  margin-top: 30px; */
 }
 
 #project_general_info .project-info .uk-col-project-info .uk-card .card-cont .img {
@@ -124,7 +64,6 @@
   width: 50px;
   display: inline-flex;
 }
-
 
 #project_general_info .project-info .uk-col-project-info:not(.uk-first-column):before {
   content: "";
@@ -160,7 +99,6 @@
 /* Cuadro del medio Fin */
 
 .main-banner {
-
   display: flex;
   -webkit-box-align: start;
   -webkit-align-items: flex-start;
@@ -183,8 +121,6 @@
   position: absolute;
   top: 0;
   right: 0;
-
-
 }
 
 .img-banner:before {
@@ -198,7 +134,6 @@
   opacity: .6;
   -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=60)";
   filter: alpha(opacity=60);
-
 }
 
 .d-md-block {
@@ -321,7 +256,6 @@
   font-size: 20px;
 }
 
-
 .text-mitad-pantalla-parrafo {
   color: #FFFFFF;
     font-size: 15px;
@@ -435,9 +369,7 @@
     margin-top: 0;
   }
 
-
-  #project_general_info .project-info .uk-grid      /* viendo para eliminar o quiza no,  sepradolres de color ver lina verticales */ {
-
+  #project_general_info .project-info .uk-grid {
     margin-right: 6px;
 }
 
@@ -470,7 +402,6 @@
 }
 
 .second-section {
-  background: #8bc349;
   padding-top: 30px;
 }
 
@@ -478,7 +409,7 @@
   font-size: 1.5rem;
 }
 
-/* ==========imagenes  slider  secction ========= INICIO*/
+/* imagenes  slider secction INICIO*/
 .container-fotos .row .row-imgs-responsive {
   width: 100%;
   padding: 0;
@@ -487,17 +418,6 @@
 .container-fotos .row .row-texts-responsive {
   width: 100%;
 }
-
-.slider-img {
-
-}
-
-/* ==========imagenes  slider  secction ========= FIN*/
-}
-
-
-@media (max-width: 1024px) {
+/* imagenes slider secction FIN*/
 
 }
-
-
