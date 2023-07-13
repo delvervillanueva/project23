@@ -35,6 +35,7 @@ import { HttpClientModule } from '@angular/common/http';
   ],
   exports: [
     SharedModule,
+    AppRoutingModule
 
   ],
   providers: [],

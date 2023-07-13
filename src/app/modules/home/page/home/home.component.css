@@ -201,6 +201,9 @@
   margin-top: -110px;
 }
 
+
+
+
 @media(max-width: 767px) {
 
 /*   ====corousel responsive=====Inicio== */
@@ -234,6 +237,14 @@
     margin-right: 26px;
   }
   /*   ====corousel responsive=====Fin== */
-
-
 }
+
+
+@media (min-width: 992px) and (max-width: 1199px) {
+
+  .card {
+    height: auto;
+   }
+}
+
+

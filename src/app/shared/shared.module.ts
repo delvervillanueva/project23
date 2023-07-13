@@ -1,6 +1,7 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { NavbarScrollyDirective } from './directives/navbar-scrolly.directive';
+import { AppRoutingModule } from '../app-routing.module';
 
 
 
@@ -9,7 +10,8 @@ import { NavbarScrollyDirective } from './directives/navbar-scrolly.directive';
     NavbarScrollyDirective
   ],
   imports: [
-    CommonModule
+    CommonModule,
+    AppRoutingModule
   ],
   exports: [
     NavbarScrollyDirective

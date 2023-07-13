@@ -78,6 +78,9 @@
   margin-left: -60px
 }
 
+
+
+
 #project_general_info .project-info .uk-col-project-info .uk-card .card-cont .text p.small {
   font-family: "Roboto",Arial,Helvetica,sans-serif;
   font-weight: 300;
@@ -371,53 +374,136 @@
 
   #project_general_info .project-info .uk-grid {
     margin-right: 6px;
+  }
+
+  .text-wrapper .title-servicios {
+    font-size: 1.9rem;
+    text-align: center;
+    margin-bottom: 10px;
+    margin-bottom: -30px
+  }
+
+  .text-wrapper .subtitle_parrafo {
+    max-width: 100%;
+    padding-top: 0px;
+    font-size: 20px;
+    text-align: center;
+  }
+
+  .dividir-filas {
+    display: none;
+  }
+
+  .icono-areas-comunes {
+    margin-right: 5px;
+    font-size: 1.2rem;
+  }
+
+  .txt-black {
+    color: var(--just-white);
+    line-height: 15px;
+  }
+
+  .second-section {
+    padding-top: 30px;
+  }
+
+  .card-cont-icons {
+    font-size: 1.5rem;
+  }
+
+
+/*   .container-align {
+    margin-left: 50px;
+  } */
+
+  #project_general_info .project-info .uk-col-project-info {
+    width: 50%;
+  }
+
+  #project_general_info .project-info .uk-col-project-info .uk-card .card-cont {
+
+      margin: 0 auto;
+   }
+
 }
 
-.text-wrapper .title-servicios {
-  font-size: 1.9rem;
-  text-align: center;
-  margin-bottom: 10px;
-  margin-bottom: -30px
+
+
+
+@media (min-width: 320px) and (max-width: 575px) {
+
+  .text-mitad-pantalla-listas-container {
+    padding: 40px 30px 30px 30px;
+  }
 }
 
-.text-wrapper .subtitle_parrafo {
-  max-width: 100%;
-  padding-top: 0px;
-  font-size: 20px;
-  text-align: center;
+@media (min-width: 360px) and (max-width: 575px) {
+  .icons-content {
+    padding-left: 50px;
+  }
 }
 
-.dividir-filas {
-  display: none;
+
+
+@media (min-width: 481px) and (max-width: 959px) {
+
+  #project_general_info .project-info .uk-col-project-info .uk-card .card-cont {
+  /*   display: flex;
+    align-items: center; */
+    margin: 0 auto;
+  }
+
+  #project_general_info .project-info .uk-col-project-info {
+      /* position: relative; */
+      width: 50%;
+  }
+
+  #project_general_info .project-info .uk-col-project-info:not(.uk-first-column):before {
+    margin-left: 0px;
+    background: transparent;
+  }
+
+  #project_general_info .project-info .uk-col-project-info:not(.line-delete):before {
+    background: var(--verde-logo);
+  }
+
+
+
+  /* .line-delete {
+    all: unset;
+  } */
 }
 
-.icono-areas-comunes {
-  margin-right: 5px;
-  font-size: 1.2rem;
-}
+@media (min-width: 480px) and (max-width: 991px) {
 
-.txt-black {
-  color: var(--just-white);
-  line-height: 15px;
-}
+  .text-wrapper .title-servicios, .subtitle_parrafo {
 
-.second-section {
-  padding-top: 30px;
-}
+    text-align: center;
+  }
 
-.card-cont-icons {
-  font-size: 1.5rem;
-}
-
-/* imagenes  slider secction INICIO*/
-.container-fotos .row .row-imgs-responsive {
-  width: 100%;
-  padding: 0;
-}
-
-.container-fotos .row .row-texts-responsive {
-  width: 100%;
-}
-/* imagenes slider secction FIN*/
 
 }
+
+@media (min-width: 768px) and (max-width: 992px) {
+  #project_general_info .project-info .uk-col-project-info:not(.uk-first-column):before {
+    margin-left: -20px;
+  }
+}
+
+
+
+ @media only screen and (max-width: 1024px) {
+  /* imagenes  slider secction INICIO*/
+  .container-fotos .row .row-imgs-responsive {
+    width: 100%;
+    padding: 0;
+  }
+
+  .container-fotos .row .row-texts-responsive {
+    width: 100%;
+  }
+  /* imagenes slider secction FIN*/
+}
+
+

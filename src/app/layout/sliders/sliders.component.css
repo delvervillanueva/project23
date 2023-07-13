@@ -56,9 +56,17 @@
  }
 
 
+ @media screen and (max-width: 320px) {
+  .carousel-caption{
+    bottom: 0px;
+  }
+ }
+
 
  @media only screen and (max-width: 767px) {
   .w-100 {
     width: auto!important;
    }
  }
+
+

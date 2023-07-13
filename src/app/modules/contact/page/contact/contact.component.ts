@@ -35,7 +35,7 @@ export class ContactComponent {
       message: this.formLogin.value
     }
 
-    this.serviceEmailService.sendEmail("https://8xonsv6w1i.execute-api.sa-east-1.amazonaws.com/api", letCliente ).subscribe(
+    this.serviceEmailService.sendEmail("https://5ixj43c78i.execute-api.us-east-1.amazonaws.com/apinew", letCliente ).subscribe(
       data => {
         let res:any = data;
         console.log(`Respuesta ${letCliente.name}, ${letCliente.email} y ${letCliente.message}`);
