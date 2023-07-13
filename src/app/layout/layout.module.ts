@@ -14,12 +14,6 @@ import { HomeComponent } from '../modules/home/page/home/home.component';
 import { SlidersComponent } from './sliders/sliders.component';
 
 
-
-
-
-
-
-
 @NgModule({
   declarations: [
     FooterComponent,
@@ -35,7 +29,6 @@ import { SlidersComponent } from './sliders/sliders.component';
     SharedModule,
     LayoutRoutingModule,
    /*  ContactModule, */
-
 
   ],
   exports : [

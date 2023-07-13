@@ -7,8 +7,6 @@
   }
  }
 
-
-
  @keyframes fadeIn {
   from {
     opacity: 0;
@@ -21,22 +19,10 @@
 
 
  nav {
-  /* position: relative;
-  display: flex;
-  flex-direction: column; */
   width: 100%;
   min-width: 320px;
-/*   background-color: violet;
-  padding-right: 10px; */
+
 }
-/*
-nav img {
-  width: 130px;
-  height: 60px;
-  margin-top: 60px;
-  align-self: center;
-}
- */
 
  .new-nav {
   background-color: black;
@@ -50,48 +36,6 @@ nav img {
   animation-name: fadeIn;
   padding: 0rem!important;
 }
-
-/*  .banner-image { */
- /*  background-image: url('/assets/img/slider-principal/photo1.jpeg') ; */
-/*   background-size: cover;
-  background-color: rgb(167, 24, 185) ;
-  background-blend-mode: soft-light;
-
-
- } */
-
-
-
-
-/* .img_logo {
-   width: 170px;
-   margin-left: 65px;
-}
- */
-
-/*  .carousel-item img {
-  background-color: black;
-  background-blend-mode: soft-light;
-  display: flex;
-  background-size: cover;
-  background-image:
-  linear-gradient( rgba(0,0,0, 0.5) rgba(0,0,0, 0.5) )
- } */
-
-/*  .banner-image {
-  background-image: url('/assets/img/slider-principal/photo1.jpeg');
-  background-color: rgb(80, 80, 80);
-  background-blend-mode: soft-light;
-
-
-
- } */
-
-
-/*  nav ul li a:hover {
-  color: var(--verde-logo);
-  transition: .9s;
-} */
 
 .nav-link {
   color: rgba(255, 255, 255, 0.75);

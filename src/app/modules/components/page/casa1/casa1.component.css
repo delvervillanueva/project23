@@ -78,9 +78,6 @@
   margin-left: -60px
 }
 
-
-
-
 #project_general_info .project-info .uk-col-project-info .uk-card .card-cont .text p.small {
   font-family: "Roboto",Arial,Helvetica,sans-serif;
   font-weight: 300;
@@ -412,11 +409,6 @@
     font-size: 1.5rem;
   }
 
-
-/*   .container-align {
-    margin-left: 50px;
-  } */
-
   #project_general_info .project-info .uk-col-project-info {
     width: 50%;
   }
@@ -427,8 +419,6 @@
    }
 
 }
-
-
 
 
 @media (min-width: 320px) and (max-width: 575px) {
@@ -445,17 +435,13 @@
 }
 
 
-
 @media (min-width: 481px) and (max-width: 959px) {
 
   #project_general_info .project-info .uk-col-project-info .uk-card .card-cont {
-  /*   display: flex;
-    align-items: center; */
     margin: 0 auto;
   }
 
   #project_general_info .project-info .uk-col-project-info {
-      /* position: relative; */
       width: 50%;
   }
 
@@ -468,11 +454,6 @@
     background: var(--verde-logo);
   }
 
-
-
-  /* .line-delete {
-    all: unset;
-  } */
 }
 
 @media (min-width: 480px) and (max-width: 991px) {

@@ -1,48 +1,17 @@
 
  img {
-/*   width: 350px;
-  height: 500px; */
-
   max-width: 100%;
   vertical-align:middle;
   border-style:none;
  }
 
  .card {
-  /* width: 350px;*/
   width: 100%;
   height: 445px;
- /*  width: 100%;
-  min-width: 288px;
-  max-width: 400px;
-  height: 150px;
-  margin: 15px auto; */
   overflow: hidden;
   position: relative;
  }
 
-
- /* .elemento  {
-
-  transform: translateY(100%);
-
-  animation-name: move-img ;
-  animation-duration: 0.5s;
-  animation-delay: 2.5s;
-  animation-timing-function: ease-in-out;
-  animation-fill-mode: forwards;
-
- }
-
- @keyframes move-img {
-  0% {
-    transform: translateY(100%);
-  }
-  100% {
-    transform: translateY(0px);
-  }
- }
- */
  .card img {
   transition: all .5s ease;
 
@@ -94,7 +63,6 @@
  .card-body7 {
   background: rgba(99, 119, 14, 0.7);
  }
-
 
  .cards-wapper {
   gap: 8px;
@@ -201,20 +169,8 @@
   margin-top: -110px;
 }
 
-
-
-
 @media(max-width: 767px) {
 
-/*   ====corousel responsive=====Inicio== */
-/*   html, body {
-    width: 100%;
-    height: 100%;
-    margin: 0;
-    padding: 0;
-    overflow-x: hidden;
-  }
- */
   .carousel{
     display: flex;
     flex-wrap: nowrap;
@@ -223,14 +179,7 @@
   }
 
   .elemento {
-    /* ver para que se vean antes de qeu llega a los 575px */
-    /* flex: 1 0 auto;
-    margin: 0 50px;
-    width: 500px;
-    height: 500px; */
-
     flex: 1 0 auto;
-    /* margin: 0 9px; */
     width: 82%;
     height: 500px;
     margin-left: -9px;
@@ -241,7 +190,6 @@
 
 
 @media (min-width: 992px) and (max-width: 1199px) {
-
   .card {
     height: auto;
    }

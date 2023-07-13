@@ -19,8 +19,6 @@ export class AppComponent {
     window.addEventListener('load', AOS.refresh)
   }
 
-
-
     constructor(
       private router: Router
     ) {
